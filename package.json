@@ -1,0 +1,31 @@
+{
+    "name": "ai-nextjs-project-generator",
+    "version": "1.0.0",
+    "description": "CLI tool to generate Next.js projects with AI",
+    "main": "index.js",
+    "bin": {
+      "create-ai-nextjs-project": "./index.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "workspaces": [
+      "packages/*"
+    ],
+    "dependencies": {
+      "axios": "^1.7.9",
+      "chalk": "^4.1.2",
+      "inquirer": "^8.2.6",
+      "openai": "^4.76.0"
+    },
+    "devDependencies": {
+      "@types/inquirer": "^9.0.7"
+    },
+    "peerDependencies": {
+      "chalk": "^4.1.2"
+    }
+  }
+  
